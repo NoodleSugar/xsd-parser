@@ -37,7 +37,7 @@ unindent = { workspace = true }
 url = { workspace = true }
 
 num = { workspace = true, optional = true }
-reqwest = { workspace = true, features = [ "blocking" ], optional = true }
+reqwest = { workspace = true, features = [ "blocking" , "rustls-tls" ], optional = true }
 serde = { workspace = true, optional = true, features = [ "derive" ] }
 
 xsd-parser-types = { workspace = true, features = [ "quick-xml" ] }
